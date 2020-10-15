@@ -1,26 +1,12 @@
-<h1>Welcome to the burger bar</h1>
-
-<h2>Where all the burgers want to be eaten</h2>
-
-<ul>
-  {{#each burgers}}
-    {{#unless eaten}}
-      {{> burgers/burger-block eaten=true}}
-    {{/unless}}
-  {{/each}}
-</ul>
-
-<h2>Cats that are sleepy!</h2>
-
-<ul>
-  {{#each burgers}}
-    {{#if eaten}}
-      {{> burgers/burger-block eaten=false}}
-    {{/if}}
-  {{/each}}
-</ul>
-
-<h2>Add a New Burger</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Add a New Burger</h2>
 <form class="create-form">
 
   <div class="form-group">
@@ -36,3 +22,6 @@
 
   <button type="submit">Add a New Burger</button>
 </form>
+</body>
+</html>
+
