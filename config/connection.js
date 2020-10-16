@@ -1,13 +1,21 @@
 // Set up MySQL connection.
 var mysql = require("mysql");
 
-var connection = mysql.createConnection({
-  host: "localhost",
-  port: 3306,
-  user: "root",
-  password: "password",
-  database: "burger_db"
-});
+//if there is a jaws DB connection, use that connection. Id not, use local connection.
+
+if (process.env.JAWSDB_URL) {
+  connection = mysql.createConnection(process.env.JAWSDB_URL);
+} else {
+  var connection = mysql.createConnection({
+    host: "localhost",
+    port: 3306,
+    user: "root",
+    password: "password",
+    database: "burger_db"
+  });
+}
+
+
 
 // Make connection.
 connection.connect(function(err) {
