@@ -17,4 +17,16 @@ li {
   .form-group {
     margin-bottom: 5px;
   }
+
+  .to-be-eaten {
+    background: salmon;
+  }
+
+  .to-order {
+    background: mediumseagreen;
+  }
+
+  .create-new {
+    background: orangered;
+  }
   
