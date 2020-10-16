@@ -1,21 +1,21 @@
 <h1>Welcome to the burger bar</h1>
 
-<h2>Where all the burgers want to be eaten</h2>
+<h2>Burgers to be eaten</h2>
 
 <ul>
   {{#each burgers}}
-    {{#unless eaten}}
-      {{> burgers/burger-block eaten=true}}
+    {{#unless devoured}}
+      {{> burgers/burger-block devoured=true}}
     {{/unless}}
   {{/each}}
 </ul>
 
-<h2>Burgers that have been eaten</h2>
+<h2>Burger Menu</h2>
 
 <ul>
   {{#each burgers}}
-    {{#if eaten}}
-      {{> burgers/burger-block eaten=false}}
+    {{#if devoured}}
+      {{> burgers/burger-block devoured=false}}
     {{/if}}
   {{/each}}
 </ul>
