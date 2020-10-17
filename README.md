@@ -20,7 +20,7 @@ Alex Milroy
 ## Description
 The burger bar is a web application that shows off gourmet burgers you can order, and then devour the burgers when they are ready! Dont see a burger you like? You can add a new burger and have it made for you to be devoured! Burger bar uses a MYSQL database to store the burgers, and utilizes handlebars, node, express, and javascript to build the application.
 
-Video of the application can be seen here: 
+Video of the application can be seen here: https://drive.google.com/file/d/1Lnk1b3ab13QqwMnMjz7aMJdxHAQXRQOK/view
 
 ## Installation
  Then users must install all required NPM packages (express, express-handlebars, mysql). Users must also create a new database in MYSQL. This application runs in a terminal window. To run this applications, users must first create a database in mysql by taking the seeds and schema files, and creating a new database. You can then run the application by opening a new terminal window, and typing “node tracker.js” to start the application. Then ope na new browser window, and navigate to "localhost:8080" to see the application.
@@ -41,6 +41,9 @@ Users can test the application be ensuring its reachable at localhost:8080 after
 github.com/ajm5099
 amilroy@gmail.com
 
-![Site Screenshot](images/initilization.png)
-![Site Screenshot](images/questions.png)
-![Site Screenshot](images/employees.png)
+![Site Screenshot](images/burger_bar.png)
+![Site Screenshot](images/new.png)
+![Site Screenshot](images/burger_menu.png)
+![Site Screenshot](images/burger_to_eat.png)
+![Site Screenshot](images/package.png)
+![Site Screenshot](images/sql.png)
