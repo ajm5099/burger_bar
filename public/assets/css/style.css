@@ -1,7 +1,30 @@
+body {
+  background-color: rgb(24, 22, 22);
+}
+
+h4 {
+  font-family: 'Special Elite', cursive;
+  padding-bottom: .5vw;
+}
+
+h2 {
+  font-family: 'Special Elite', cursive;
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Special Elite', cursive;
+  color: white;
+  font-size: 2rem !important; 
+}
+
 li {
     padding: 5px;
     margin: 5px;
-    background: #faebd7;
+    background: #5f250e;
+    border-radius: .5vw;
+    color: white;
   }
   
   .label {
@@ -19,14 +42,45 @@ li {
   }
 
   .to-be-eaten {
-    background: salmon;
+    background: rgb(230, 195, 99);
+    border-radius: .5vw;
+    padding: .25vw;
+    padding-bottom: 4vh;
+    text-align: center;
+    border-radius: 10px;
+    border: 4px outset rgb(151, 95, 11);
+    font-family: 'Josefin Slab', serif;
   }
 
   .to-order {
-    background: mediumseagreen;
+    background: rgb(230, 195, 99);
+    border-radius: .5vw;
+    padding: .25vw;
+    padding-bottom: 4vh;
+    text-align: center;
+    border-radius: 10px;
+    border: 4px outset rgb(151, 95, 11);
+    font-family: 'Josefin Slab', serif;
   }
 
   .create-new {
     background: orangered;
   }
+
+  #top-bar {
+    margin: 10vh;
+    color: blue;
+    text-align: center;
+  }
   
+  #to-eat{
+    width: 30vw;
+    float: left;
+    margin-left: 15vw;
+  }
+
+  #to-order{
+    width: 30vw;
+    float: right;
+    margin-right: 15vw;
+  }
