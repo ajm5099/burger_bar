@@ -50,6 +50,7 @@ li {
     border-radius: 10px;
     border: 4px outset rgb(151, 95, 11);
     font-family: 'Josefin Slab', serif;
+    font-size: 1.2rem;
   }
 
   .to-order {
@@ -61,6 +62,7 @@ li {
     border-radius: 10px;
     border: 4px outset rgb(151, 95, 11);
     font-family: 'Josefin Slab', serif;
+    font-size: 1.2rem;
   }
 
   .create-new {
@@ -84,3 +86,44 @@ li {
     float: right;
     margin-right: 15vw;
   }
+
+  #new-burger{
+    width:30vw;
+    margin-left: 35vw;
+    margin-right: 35vw;
+    padding: .25vw;
+  }
+
+  #add-box{
+    border-radius: .5vw;
+    padding: .25vw;
+    margin: .5vw;
+  }
+
+.form-group {
+  text-align: center;
+  font-family: 'Josefin Slab', serif;
+  font-size: 22px;
+}
+
+#create-new-burger-button {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  border-radius: .5vw;
+  background: rgb(151, 95, 11);
+  color: white;
+  font-family: 'Josefin Slab', serif;
+}
+
+.change-devoured {
+  background: rgb(88, 184, 44);
+  border-radius: .5vw;
+  font-family: 'Josefin Slab', serif;
+}
+
+.delete-burger {
+  background: rgb(88, 184, 44);
+  border-radius: .5vw;
+  font-family: 'Josefin Slab', serif;
+  margin: .3vw;
+}

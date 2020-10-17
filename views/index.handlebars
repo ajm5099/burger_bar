@@ -39,22 +39,26 @@
 
 
 
+<div class="row">
+  <div class="col-sm-12, col-md-12, col-lg-12">
+    <div class="col-sm-4, col-md-4, col-lg-4" id="new-burger">
+      <div class="create-new" id="add-box">
+        <h2>Add a New Burger</h2>
+        <form class="create-form">
 
-<div class="create-new">
-  <h2>Add a New Burger</h2>
-  <form class="create-form">
+          <div class="form-group">
+            <input type="text" id="ca" name="name">
+          </div>
 
-    <div class="form-group">
-      <label for="ca">Burger-Name</label>
-      <input type="text" id="ca" name="name">
+          <div class="form-group">
+            <label for="devoured"></label><br>
+            <input type="radio" name="devoured" value="1" checked><br>
+            <input type="radio" name="devoured" value="0">
+          </div>
+
+          <button type="submit" id="create-new-burger-button">Add a New Burger</button>
+        </form>
+      </div>
     </div>
-
-    <div class="form-group">
-      <label for="devoured">devoured?</label><br>
-      <input type="radio" name="devoured" value="1" checked> devoured!<br>
-      <input type="radio" name="devoured" value="0"> Not devoured!
-    </div>
-
-    <button type="submit">Add a New Burger</button>
-  </form>
+  </div>
 </div>
