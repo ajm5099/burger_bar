@@ -22,6 +22,8 @@ The burger bar is a web application that shows off gourmet burgers you can order
 
 Video of the application can be seen here: https://drive.google.com/file/d/1Lnk1b3ab13QqwMnMjz7aMJdxHAQXRQOK/view
 
+Example: https://glacial-reef-81572.herokuapp.com/
+
 ## Installation
 Users must install all required NPM packages (express, express-handlebars, mysql). Users must also create a new database in MYSQL. This application runs in a terminal window. To run this applications, users must first create a database in mysql by taking the seeds and schema files, and creating a new database. You can then run the application by opening a new terminal window, and typing “node tracker.js” to start the application. Then ope na new browser window, and navigate to "localhost:8080" to see the application.
 
